@@ -1,0 +1,5 @@
+.intro-text {
+  text-underline-offset: 8px; /* gap between text & underline */
+  text-decoration-thickness: 1px; /* optional: make underline thicker */
+  
+}

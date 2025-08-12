@@ -1,0 +1,20 @@
+.contact-btn {
+  background: linear-gradient(45deg, #007bff, #00d4ff);
+  border: none;
+  color: white;
+  border-radius: 50px;
+  transition: background 0.3s ease-in-out;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.5);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(0, 123, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 123, 255, 0);
+  }
+}

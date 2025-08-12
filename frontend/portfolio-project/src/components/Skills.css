@@ -1,0 +1,22 @@
+#section-hero {
+  overflow: hidden;
+}
+
+.contact-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  transition: 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  #section-hero h1 {
+    font-size: 1.8rem;
+  }
+  #section-hero h6 {
+    font-size: 1rem;
+  }
+  .contact-btn {
+    font-size: 0.9rem;
+  }
+}
