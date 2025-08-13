@@ -1,24 +1,25 @@
 import React from 'react'
-import portfolioImg from '../assets/portfolio-img.jpg';
+import portfolioImg from '../assets/hero-image.jpg';
 import { motion } from "framer-motion";
 import '../components/HeroSections.css';
 
 const HeroSections = () => {
   return (
-    <section id='section-hero' className='container-fluid bg-dark'>
-      <div className='container d-flex flex-column-reverse flex-md-row justify-content-between align-items-center py-5'>
+    <section id='section-hero' className='container-fluid bg-dark mt-5 p-5 text-sm-start'>
+      <div className='container d-sm-flex'>
 
         {/* Left Section - Text */}
-        <div className='text-center text-md-start mt-4 mt-md-0'>
-          <h1 className='text-white px-3 px-md-5 fw-bold'>
-            Hi, I am Bilal Mukhtiar
+        <div className='col-md-6 text-center text-lg-start align-self-center '>
+          <h1 className='text-white px-5 fw-bold'>
+            Hi, I am <span className='fw-bold'>Bilal Mukhtiar</span>
           </h1>
-          <h6 className='text-white px-3 px-md-5 mt-3 mb-4'>
-            I develop Full Stack Web Application, using MERN Stack
-          </h6>
+          <p className='text-white px-5'>
+            <span className='mern-stack'>MERN Stack Developer</span>
+          </p>
 
           <motion.button
-            className='btn contact-btn btn-lg px-4 px-md-5 ms-5'
+            className='btn contact-btn btn-lg ms-5'
+            style={{ borderRadius: '30px' }} // Change this value
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
@@ -34,17 +35,13 @@ const HeroSections = () => {
         </div>
 
         {/* Right Section - Image */}
-        <div className='text-center'>
-          <img
-            src={portfolioImg}
-            alt="Portfolio"
-            className='img-fluid rounded w-100 w-lg-75'
-            
-          />
+        <div className='col-md-6 d-none d-sm-block d-md-block'>
+          <img src={portfolioImg} alt="Portfolio" className='img-fluid w-75' />
         </div>
 
       </div>
     </section>
+
   )
 }
 

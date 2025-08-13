@@ -6,11 +6,11 @@ import ss3 from '../assets/testimonials/03.png'
 const Testimonials = () => {
   return (
 
-    <section id='section-testimonials' className="container-fluid bg-dark text-white py-5">
+    <section id='section-testimonials' className="container-fluid bg-dark text-white p-5">
       <div className="container">
         {/* Text section */}
         <div className="mb-4">
-          <p className="mb-1 text-decoration-underline">What Others Say</p>
+          <p className="mb-1 text-decoration-underline">WHAT OTHERS SAY</p>
           <h1 style={{ fontSize: '60px' }}>Testimonials</h1>
         </div>
 

@@ -15,11 +15,12 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
       <div className="container">
         {/* Logo */}
         <div className="d-flex align-items-center ms-5">
-          <img src={logo} alt="Logo" style={{ width: '60px', height: '60px' }} />
+          {/* <img src={logo} alt="Logo" style={{ width: '60px', height: '60px' }} /> */}
+          <h3 className='text-white'>Bilal Mukhtiar</h3>
         </div>
 
         {/* Hamburger Button */}

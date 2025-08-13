@@ -1,11 +1,14 @@
 import React from 'react'
+import { FaFacebook } from "react-icons/fa";
+import { TbBrandFiverr } from "react-icons/tb";
+import { FaInstagram } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
     <section id='section-contact'>
         <div className="container-fluid bg-dark text-white py-5">
             <div className="container">
-              <p className='text-center text-decoration-underline'>Get in Touch</p>
+              <p className='text-center text-decoration-underline'>GET IN TOUCH</p>
                 <h1 className="mb-5 fw-bold text-center" style={{fontSize:'60px'}}>Contact Me</h1>
             </div>
             <div className='row justify-content-center'>
@@ -27,7 +30,15 @@ const ContactUs = () => {
                 </form>
               </div>  
             </div>
+            <hr className='mx-5' />
+            <div className='icons text-center mt-4'>
+          <FaFacebook style={{color:'white', fontSize:'20px'}}/> &nbsp;
+          <FaInstagram style={{color:'white', fontSize:'20px'}}/>&nbsp;
+
+          <TbBrandFiverr style={{color:'white', fontSize:'20px'}} />
         </div>
+        </div>
+        
     </section>
   )
 }

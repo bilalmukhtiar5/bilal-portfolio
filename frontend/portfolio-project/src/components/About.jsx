@@ -68,7 +68,7 @@ const About = () => {
   animate={{ opacity: 1, x: 0 }}
   transition={{ duration: 0.6, delay: 0.5 }}
 >
-  <h4 className="px-1">Skills Summary</h4>
+  <h4 className="px-1 mx-2">Skills Summary</h4>
   <ul style={{ listStyleType: 'none', padding: 0 }}>
     {skills.map((skill, index) => (
       <motion.li
@@ -79,12 +79,12 @@ const About = () => {
         animate="visible"
         style={{ fontWeight: 300, marginBottom: '8px' }} // Light weight
       >
-        <h5 className="fw-light m-0">{skill}</h5>
+        <h5 className="fw-light m-0 mx-3">{skill}</h5>
       </motion.li>
     ))}
   </ul>
 
-  <h5 className="mt-3 p-3 fw-light">
+  <h5 className="mx-3 fw-light">
     My goal is to build scalable applications that help businesses and individuals succeed in the digital world.
   </h5>
 </motion.div>
