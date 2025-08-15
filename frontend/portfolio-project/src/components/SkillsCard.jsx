@@ -8,25 +8,24 @@ const SkillsCard = () => {
     const data = [
         {
             title: "Frontend Developer",
-            description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            description: "Skilled in building responsive and interactive user interfaces using React, HTML, CSS, and JavaScript.",
             imageUrl: img1
         },
         {
             title: "Backend Developer",
-            description: "Another quick example text for the backend developer card.",
+            description: "Experienced in creating robust server-side applications with Node.js, Express, and MongoDB.",
             imageUrl: img2
         },
         {
             title: "Full Stack Developer",
-            description: "Full stack development involves both frontend and backend skills.",
+            description: "Proficient in both frontend and backend technologies to deliver complete web solutions.",
             imageUrl: img3
         },
         {
             title: "Wordpress Developer",
-            description: "Wordpress development involves both Elementor Pro and ACF.",
+            description: "Expert in developing custom WordPress themes and plugins, including Elementor Pro and ACF integration.",
             imageUrl: img3
         },
-        
     ];
 
     return (
