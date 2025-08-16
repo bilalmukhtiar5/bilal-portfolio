@@ -52,9 +52,9 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
           >
             <h5 className="px-5 justify fw-light">
-              A skilled and experienced Web app developer passionate about creating dynamic
+              A skilled Web app developer passionate about creating dynamic
               and user-friendly web-Apps. With 2 years of experience, I deeply understand
-              web development principles and have a proven track record of delivering high-quality projects.
+              web development principles and have delivered high-quality projects.
               I am well-versed in various programming languages and frameworks, including HTML, CSS, JavaScript, React Js, Nodejs and MongoDB.
               I stay up-to-date with the latest trends and technologies in the field, continuously expanding my knowledge to ensure
               cutting-edge solutions to my clients.
